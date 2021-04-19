@@ -22,3 +22,29 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+table {
+  border-collapse: collapse;
+  min-width: 600px;
+  max-width: 1500px;
+}
+
+tr {
+  background: #fff;
+  color: #808080;
+}
+
+tr:nth-child(2n + 1) {
+  background: #f5f5f5;
+}
+
+thead tr:first-child {
+  background: #e25644;
+  color: #fff;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 18px;
+}
